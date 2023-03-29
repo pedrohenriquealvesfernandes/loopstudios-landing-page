@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+@media screen and (min-width:1440px) {
+    :root{
+        --branco: hsl(0, 0%, 100%);
+        --preto: hsl(0, 0%, 0%);
+        --cinza-escuro: hsl(0, 0%, 55%);
+        --cinza-muito-escuro: hsl(0, 0%, 41%);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        background: url('/images/desktop/image-hero.jpg') no-repeat bottom ;
+        background-size: cover;
+        width: 100%;
+        padding: 4em 7em ;
+        height: 90vh;
+    }
+
+    .nav-cel #menu{
+        display: none;
+    }
+
+    .nav-cel .logo{
+       display: none ;
+    }
+
+    #cabecalho{
+        display: flex;
+        background-color: transparent;
+        position: static;
+        height: 100%;
+        padding: 0;
+    }
+
+    #cabecalho #fechar{
+        display: none;
+    }
+
+    #lista{
+        width: 70%;
+        height:100%;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: .75em;
+        font-weight: bolder;
+    }
+
+    #lista li{
+        padding: 0;
+        text-transform: none;
+    }
+
+    header h1{
+        margin: 4em 0 0 0;  
+        width: 50%;  
+        font-size: 3.5em;
+        font-weight: lighter;
+    }
+
+    main{
+        margin: 7em 6em;
+    }
+
+    .leader{
+        position: relative;
+        margin-bottom: 2em;
+    }
+
+    .leader img{
+        width: 65%;
+    }
+
+    main .text{
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: initial;
+        margin: 0;
+        width: 50%;
+        padding: 6em 6em 0 6em;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        height: 350px;
+    }
+
+    .text h2{
+        font-size: 3.2em;
+        text-align: initial;
+        font-weight: normal;
+    }
+
+    .text p{
+        line-height: 25px;
+        margin: 3em 0 0 ;  
+    }
+
+    .flex-desktop{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .creations .flex-desktop > input{
+        padding: .7em 2em;
+        border: 1px solid var(--preto);
+        background: transparent;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-shadow: .4px .4px var(--preto);
+        color: var(--preto);
+        cursor: pointer;
+    }
+    
+    .creations .botao{
+        display: none;
+    }
+
+    .cartazes{
+        display: grid;
+        grid-template-columns: repeat(4,25%);
+        gap: 2.1em;
+        width: 92%;
+    }
+
+    .cartazes div{
+        height: 550px;
+        color: var(--branco);
+        margin: 0;
+    }
+
+    .cartazes div:nth-child(1){
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0,0,0,0.60)), url('/images/desktop/image-deep-earth.jpg') no-repeat center;
+        background-size: cover;
+    }
+    
+    .cartazes div:nth-child(2){
+        background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.60)), url('/images/desktop/image-night-arcade.jpg')no-repeat center;
+        background-size: cover;
+    }
+    
+    .cartazes div:nth-child(3){
+        background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.60)), url('/images/desktop/image-soccer-team.jpg') no-repeat center;
+        background-size: cover;
+    }
+    
+    .cartazes div:nth-child(4){
+        background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.60)), url('/images/desktop/image-grid.jpg') no-repeat center;
+        background-size: cover;
+    }
+    
+    .cartazes div:nth-child(5){
+        background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.60)), url('/images/desktop/image-from-above.jpg') no-repeat center;
+        background-size: cover;
+    }
+    
+    .cartazes div:nth-child(6){
+        background: linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.60)), url('/images/desktop/image-pocket-borealis.jpg') no-repeat center;
+        background-size: cover;
+    }
+    
+    .cartazes div:nth-child(7){
+        background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.60)), url('/images/desktop/image-curiosity.jpg') no-repeat center;
+        background-size: cover;
+    }
+    
+    .cartazes div:nth-child(8){
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url('/images/desktop/image-fisheye.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .cartazes div p{
+        padding: 17.2em 3.5em 1em 1.5em;
+    }
+
+    .cartazes div#grid p {
+        padding: 17.2em 7em 1em 1.5em;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 35% 35%;
+        gap: 30%;   
+        padding: 5em 8em;
+        height: 33vh;
+    }
+
+    footer img{
+        width: 40%;
+        margin: 0;
+    }
+
+    ul#rodape-lista{
+        height: 0;
+        flex-direction: row;
+    }
+
+    .socials{
+        display: flex;
+        justify-content: space-between;
+        align-content: end;
+        flex-wrap: wrap;
+        width: 35%;
+        margin-left: 65%;
+    }
+
+    #rights{
+        text-align: end;
+    }
+}

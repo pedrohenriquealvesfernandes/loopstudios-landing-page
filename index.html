@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -7,53 +7,100 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  <header class="#home">
+    <nav>
+      <div class="nav-cel">
+        <img src="images/logo.svg" alt="logo" class="logo">
+        <img src="images/icon-hamburger.svg" alt="Menu" id="menu" onclick="clicou()">
+      </div>
+      <div id="cabecalho">
+        <div class="cabecalho-cel">
+          <img src="images/logo.svg" alt="logo" class="logo">
+          <img src="images/icon-close.svg" alt="Fechar" id="fechar" onclick="fechou()">
+        </div>
+        <ul id="lista">
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Products</li>
+          <li>Support</li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Immersive experiences that deliver</h1>
+  </header>
 
-  Immersive experiences that deliver
+  <main>
+    <section class="leader">
+      <img src="images/mobile/image-interactive.jpg" alt="interative image">
+      <div class="text">
+        <h2>The leader in interactive VR</h2>
+        <p>
+          Founded in 2011, Loopstudios has been producing world-class virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.
+        </p>
+      </div>
+    </section>
+    <section class="creations">
+      <div class="flex-desktop">
+        <h2 class=>Our creations</h2>
+        <input type="button" value="See all" class=></input>
+      </div>
+      <section class="cartazes">
+        <div id="earth"><p>Deep earth</p></div>
+        <div id="arcade"><p>Night arcade</p></div>
+        <div id="soccer"><p>Soccer team VR</p></div>
+        <div id="grid"><p>The grid</p></div>
+        <div id="VR"><p>From up above VR</p></div>
+        <div id="borealis"><p>Pocket borealis</p></div>
+        <div id="curiosity"><p>The curiosity</p></div>
+        <div id="fisheye"><p>Make it fisheye</p></div>
+      </section>
+      <input type="button" value="See all" class="botao"></input>
+    </section>
+  </main>
 
-  The leader in interactive VR
+  
+<footer>
+    <section class="project">
+      <img src="/images/logo.svg" alt="Logo">
+      <ul id="rodape-lista">
+        <li>About</li>
+        <li>Careers</li>
+        <li>Events</li>
+        <li>Products</li>
+        <li>Support</li>
+      </ul>
+    </section>
+    <section class="rodapept-2">
+      <div class="socials">
+        <a href="https://github.com/pedrohenriquealvesfernandes" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/pedrohalves/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/pedrohalvesss/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </div>
+      <p id="rights">© 2021 Loopstudios. All rights reserved.</p>
+    </section>
+  
+</footer>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  
   </div>
 </body>
+<script src="menu.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
