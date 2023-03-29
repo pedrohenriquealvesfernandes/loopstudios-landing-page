@@ -19,7 +19,7 @@
     }
     
     header{
-        background: url('./images/desktop/image-hero.jpg') no-repeat bottom ;
+        background: url('../images/desktop/image-hero.jpg') no-repeat bottom ;
         background-size: cover;
         width: 100%;
         padding: 4em 7em ;
