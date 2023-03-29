@@ -4,7 +4,7 @@
 
 <div align="center">
     <img src="./images/celular.gif" alt="Celular imagem" height="550px">
-    <img src="./images/desktop.gif" alt="Computador imagem" width="90%">
+    <img src="./images/computador.gif" alt="Computador imagem" width="90%">
 </div> <br>
 
 # **Sobre o Projeto**
