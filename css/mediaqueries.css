@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1366px) {
     :root{
         --branco: hsl(0, 0%, 100%);
         --preto: hsl(0, 0%, 0%);
@@ -107,8 +107,17 @@
     .flex-desktop{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    .flex-desktop input{
+        display: block;
     }
     
+    .creations {
+        margin-top: 15vh;
+    }
+
     .creations .flex-desktop > input{
         padding: .7em 2em;
         border: 1px solid var(--preto);
@@ -129,9 +138,9 @@
 
     .cartazes{
         display: grid;
-        grid-template-columns: repeat(4,25%);
-        gap: 2.1em;
-        width: 92%;
+        grid-template-columns: repeat(4,1fr);
+        gap: 2em;
+        width: 100%;
     }
 
     .cartazes div{
