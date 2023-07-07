@@ -8,7 +8,7 @@
 </div> <br>
 
 # **Sobre o Projeto**
-Landing Page <strong>Loopstudios</strong> disponibilizado por [Frontend Mentor](https://www.frontendmentor.io/home) feito utilizando responsividade, grid layout, flexbox, mobile first e JavaScript.  <br><br>
+Landing Page <strong>Loopstudios</strong> disponibilizado por [Frontend Mentor](https://www.frontendmentor.io/home) feito utilizando grid layout, flexbox, responsividade, mobile first e JavaScript.  <br><br>
   
 
 # **Tecnologias**
@@ -30,5 +30,5 @@ Landing Page <strong>Loopstudios</strong> disponibilizado por [Frontend Mentor](
 LinkedIn</a><br><br>
 
 # **Disponível**
-Clique <a href="https://pedrohenriquealvesfernandes.github.io/loopstudios-landing-page/" target="_blank" style="color: cyan"><strong>AQUI</strong></a> para acessar a projeto em funcionamento (resolução na qual precisa ser exibida 1440px (desktop) e 375px (celular) ).
+Clique <a href="https://pedrohenriquealvesfernandes.github.io/loopstudios-landing-page/" target="_blank" style="color: cyan"><strong>AQUI</strong></a> para acessar a projeto em funcionamento (resolução a ser exibida 1366px (desktop) e 375px (celular) ).
 
